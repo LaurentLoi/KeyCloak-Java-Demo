@@ -6,6 +6,7 @@ import lux.grcc.keycloak_java_demo.services.CatService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.annotation.security.RolesAllowed;
 import javax.validation.Valid;
 import java.util.List;
 
@@ -19,6 +20,7 @@ public class CatController {
         this.catService = catService;
     }
 
+    @RolesAllowed({"admin", "manager"})
     @GetMapping
     public ResponseEntity<List<CatDTO>> getAll() {
         return ResponseEntity.ok(this.catService.getAll());
