@@ -3,6 +3,7 @@ package com.demo.keycloak_java_demo.controlers;
 import com.demo.keycloak_java_demo.models.dtos.CatDTO;
 import com.demo.keycloak_java_demo.models.forms.CatForm;
 import com.demo.keycloak_java_demo.services.CatService;
+import com.demo.keycloak_java_demo.utils.UserDetails;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -22,7 +23,8 @@ public class CatController {
 
     @RolesAllowed({"admin", "manager"})
     @GetMapping
-    public ResponseEntity<List<CatDTO>> getAll() {
+    public ResponseEntity<List<CatDTO>> getAll(UserDetails userDetails) {
+        System.out.println(userDetails);
         return ResponseEntity.ok(this.catService.getAll());
     }
 
