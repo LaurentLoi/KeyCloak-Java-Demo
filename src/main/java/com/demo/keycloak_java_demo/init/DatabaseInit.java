@@ -1,7 +1,7 @@
-package lux.grcc.keycloak_java_demo.init;
+package com.demo.keycloak_java_demo.init;
 
-import lux.grcc.keycloak_java_demo.models.forms.CatForm;
-import lux.grcc.keycloak_java_demo.services.CatService;
+import com.demo.keycloak_java_demo.services.CatService;
+import com.demo.keycloak_java_demo.models.forms.CatForm;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;
 

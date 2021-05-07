@@ -1,7 +1,7 @@
-package lux.grcc.keycloak_java_demo.services;
+package com.demo.keycloak_java_demo.services;
 
-import lux.grcc.keycloak_java_demo.models.dtos.CatDTO;
-import lux.grcc.keycloak_java_demo.models.forms.CatForm;
+import com.demo.keycloak_java_demo.models.dtos.CatDTO;
+import com.demo.keycloak_java_demo.models.forms.CatForm;
 
 import java.util.List;
 

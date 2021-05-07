@@ -1,4 +1,4 @@
-package lux.grcc.keycloak_java_demo;
+package com.demo.keycloak_java_demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

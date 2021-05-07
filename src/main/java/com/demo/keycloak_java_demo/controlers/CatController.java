@@ -1,8 +1,8 @@
-package lux.grcc.keycloak_java_demo.controlers;
+package com.demo.keycloak_java_demo.controlers;
 
-import lux.grcc.keycloak_java_demo.models.dtos.CatDTO;
-import lux.grcc.keycloak_java_demo.models.forms.CatForm;
-import lux.grcc.keycloak_java_demo.services.CatService;
+import com.demo.keycloak_java_demo.models.dtos.CatDTO;
+import com.demo.keycloak_java_demo.models.forms.CatForm;
+import com.demo.keycloak_java_demo.services.CatService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

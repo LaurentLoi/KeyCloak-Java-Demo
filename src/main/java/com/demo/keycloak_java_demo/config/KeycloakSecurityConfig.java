@@ -1,4 +1,4 @@
-package lux.grcc.keycloak_java_demo.config;
+package com.demo.keycloak_java_demo.config;
 
 import org.keycloak.adapters.KeycloakConfigResolver;
 import org.keycloak.adapters.springboot.KeycloakSpringBootConfigResolver;

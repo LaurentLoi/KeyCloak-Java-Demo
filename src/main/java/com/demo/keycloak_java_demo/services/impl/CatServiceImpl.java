@@ -1,13 +1,13 @@
-package lux.grcc.keycloak_java_demo.services.impl;
+package com.demo.keycloak_java_demo.services.impl;
 
+import com.demo.keycloak_java_demo.mappers.WebApiMapper;
+import com.demo.keycloak_java_demo.models.dtos.CatDTO;
+import com.demo.keycloak_java_demo.models.entities.QCat;
+import com.demo.keycloak_java_demo.services.CatService;
 import com.querydsl.core.BooleanBuilder;
-import lux.grcc.keycloak_java_demo.mappers.WebApiMapper;
-import lux.grcc.keycloak_java_demo.models.dtos.CatDTO;
-import lux.grcc.keycloak_java_demo.models.entities.Cat;
-import lux.grcc.keycloak_java_demo.models.entities.QCat;
-import lux.grcc.keycloak_java_demo.models.forms.CatForm;
-import lux.grcc.keycloak_java_demo.repositories.CatRepository;
-import lux.grcc.keycloak_java_demo.services.CatService;
+import com.demo.keycloak_java_demo.models.entities.Cat;
+import com.demo.keycloak_java_demo.models.forms.CatForm;
+import com.demo.keycloak_java_demo.repositories.CatRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

@@ -1,4 +1,4 @@
-package lux.grcc.keycloak_java_demo.models.dtos;
+package com.demo.keycloak_java_demo.models.forms;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,9 +9,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class CatDTO {
-
-    long catId;
+public class CatForm {
 
     String name;
 

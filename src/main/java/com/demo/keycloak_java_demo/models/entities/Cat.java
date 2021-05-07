@@ -1,4 +1,4 @@
-package lux.grcc.keycloak_java_demo.models.entities;
+package com.demo.keycloak_java_demo.models.entities;
 
 import lombok.Data;
 

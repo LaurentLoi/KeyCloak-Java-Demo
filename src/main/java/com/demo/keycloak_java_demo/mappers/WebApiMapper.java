@@ -1,8 +1,8 @@
-package lux.grcc.keycloak_java_demo.mappers;
+package com.demo.keycloak_java_demo.mappers;
 
-import lux.grcc.keycloak_java_demo.models.dtos.CatDTO;
-import lux.grcc.keycloak_java_demo.models.entities.Cat;
-import lux.grcc.keycloak_java_demo.models.forms.CatForm;
+import com.demo.keycloak_java_demo.models.dtos.CatDTO;
+import com.demo.keycloak_java_demo.models.entities.Cat;
+import com.demo.keycloak_java_demo.models.forms.CatForm;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
