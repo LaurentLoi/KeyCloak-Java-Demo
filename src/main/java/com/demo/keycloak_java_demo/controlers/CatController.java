@@ -25,7 +25,12 @@ public class CatController {
     @GetMapping
     public ResponseEntity<List<CatDTO>> getAll(UserDetails userDetails) {
         System.out.println(userDetails);
-        return ResponseEntity.ok(this.catService.getAll());
+        if (userDetails.getListRoles().contains("manager")) {
+            return ResponseEntity.ok(this.catService.getAll());
+        } else {
+            //...
+            return null;
+        }
     }
 
     @GetMapping(path = "/{id}")
